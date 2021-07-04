@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/design_default_color_primary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="COMPRAS"
+        android:id="@+id/compras"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="BOLETAS"
+        android:id="@+id/boletas"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="15sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="PEDIDOS"
+        android:id="@+id/pedidos"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="15sp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SUNAT"
+        android:id="@+id/sunat"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="15sp">
+    </TextView>
+
+</LinearLayout>

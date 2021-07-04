@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Store Manager</string>
+    <string name="item1">Opcion 1</string>
+    <string name="item2">Ajustes</string>
+    <string name="boleta">Nueva Boleta</string>
+    <string name="pedido">Nuevo Pedido</string>
+    <string name="productos">Productos</string>
+    <string name="nuevaBoleta_nombre">Nombre</string>
+    <string name="nuevaBoleta_cancelar">Cancelar</string>
+    <string name="nuevoPedido_empresa">Empresa</string>
+    <string name="nuevoPedido_cancelar">Cancelar</string>
+    <string name="ajustes_datos_personales">Datos Personales</string>
+    <string name="ajustes_cambiarDatosPersonales2">Cambiar Datos</string>
+    <string name="ajustes_cambiarDatosPersonales">Cambiar Datos</string>
+    <string name="ajustes_productos">"Productos"</string>
+    <string name="ajustes_nuevoProducto">Nuevo Producto</string>
+    <string name="ajustes_sunat">Sunat</string>
+    <string name="nuevoProducto_nombre">Nombre del nuevo producto</string>
+
+
+</resources>
