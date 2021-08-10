@@ -1,7 +1,9 @@
 # StoreManager
 EL proyecto consiste en una aplicación encargada de la administración de una tienda. Ofrece información sobre las principales transacciones que esta necesita como la creación del aboletas. Además hay una sección con la lista de productos desde la cual se ofrece todos los datos acerca de la tienda de modo que la apersona encargada pueda usar esta información para la realización de pedidos. Cuenta tambien con los medios necesarios apra crear nuevos productos, eliminiarlos o cambiar los datos personales que necesita la aplicación para funcionar.
 La aplicación aún no se encuentra terminada hacia la visión que se tenía pensada, ya que aun no cuenta con el sistema de integración de pedidos, para que de esta manera se pueda tener control de los productos que ingresan. Por el momento solo cuenta con el sistema de boletas de salida y control de productos.
-Comenzando 🚀
+
+MENUS
+
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
 Mira Deployment para conocer como desplegar el proyecto.
