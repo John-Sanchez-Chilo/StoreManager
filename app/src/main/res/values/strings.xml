@@ -1,21 +1,85 @@
 <resources>
     <string name="app_name">Store Manager</string>
-    <string name="item1">Opcion 1</string>
+
+    <string name="button_aceptar">Aceptar</string>
+    <string name="button_cancelar">Cancelar</string>
+
+    <string name="item1">Datos de la Tienda</string>
     <string name="item2">Ajustes</string>
+
     <string name="boleta">Nueva Boleta</string>
     <string name="pedido">Nuevo Pedido</string>
     <string name="productos">Productos</string>
+
+    <string name="boletasFragmentNum"># de Boleta</string>
+    <string name="boletasFragmentFecha">Nombre</string>
+    <string name="boletasFragmentTotal">Fecha</string>
+
+    <string name="pedidosFragmentNum"># de Pedido</string>
+
+
     <string name="nuevaBoleta_nombre">Nombre</string>
+    <string name="nuevaBoleta_fecha">Fecha</string>
+    <string name="nuevaBoleta_producto">Producto</string>
+    <string name="nuevaBoleta_cantidad">Ctd.</string>
+    <string name="nuevaBoleta_precio">Precio</string>
     <string name="nuevaBoleta_cancelar">Cancelar</string>
+    <string name="nuevaBoleta_añadir">Añadir</string>
+    <string name="nuevaBoleta_aceptar">Aceptar</string>
+
+    <string name="productoVenta_aceptar">Aceptar</string>
+    <string name="productoVenta_cancelar">Cancelar</string>
+
     <string name="nuevoPedido_empresa">Empresa</string>
     <string name="nuevoPedido_cancelar">Cancelar</string>
+
     <string name="ajustes_datos_personales">Datos Personales</string>
     <string name="ajustes_cambiarDatosPersonales2">Cambiar Datos</string>
     <string name="ajustes_cambiarDatosPersonales">Cambiar Datos</string>
     <string name="ajustes_productos">"Productos"</string>
     <string name="ajustes_nuevoProducto">Nuevo Producto</string>
+    <string name="ajustes_eliminarProducto">Eliminar Producto</string>
     <string name="ajustes_sunat">Sunat</string>
-    <string name="nuevoProducto_nombre">Nombre del nuevo producto</string>
+
+    <string name="datos_tienda">Datos</string>
+    <string name="datos_tienda_nombre">Nombre de la Tienda</string>
+    <string name="datos_tienda_ruc">RUC</string>
+    <string name="datos_tienda_dueno">Nombre del dueño</string>
+    <string name="datos_tienda_telefono">Telefono</string>
+    <string name="datos_tienda_ubicacion">Ubicación de la tienda</string>
+    <string name="datos_tienda_categoria">Categoria</string>
+
+    <string name="cambiar_datos_tienda_titulo">Cambiar datos</string>
+
+
+    <string name="nuevoProducto_nombre">Nombre</string>
+    <string name="nuevoProducto_marca">Marca</string>
+    <string name="nuevoProducto_medicion">Tamaño</string>
+    <string name="nuevoProducto_unidadPorPack">Unidades por pack</string>
+    <string name="nuevoProducto_precio_compra">Precio Compra</string>
+    <string name="nuevoProducto_Precio">Precio Venta</string>
+    <string name="nuevoProducto_cantidadActual">Cantidad actual</string>
+    <string name="nuevoProducto_cantidadActualPack">Pack :</string>
+    <string name="nuevoProducto_cantidadActualUnit">Unid. :</string>
+    <string name="nuevoProducto_cantidadMax">Cantidad máxima de packetes</string>
+
+    <string name="eliminarProducto_titulo">Eliminar Producto</string>
+    <string name="eliminarProducto_id">Ingrese ID del producto</string>
+    <string name="eliminarProducto_cancelar">Cancelar</string>
+    <string name="eliminarProducto_aceptar">Aceptar</string>
+
+
+    <string name="sunat_id"># de pago Sunat</string>
+    <string name="sunat_fecha">Fecha</string>
+
+    <string name="elemento_sunat_SUNAT">SUNAT</string>
+    <string name="elemento_sunat_RUC">NUMERO RUC</string>
+    <string name="elemento_sunat_PERIODO">PERIODO TRIBUTARIO</string>
+    <string name="elemento_sunat_INGRESOS">TOTAL INGRESOS \nBRUTOS DEL MES</string>
+    <string name="elemento_sunat_COMPRAS">TOTAL COMPRAS DEL MES</string>
+    <string name="elemento_sunat_CATEGORIA">CATEGORÍA</string>
+    <string name="elemento_sunat_PERCEPCIÓN">MONTO A COMPENSAR POR PERCEPCIONES DE IGV QUE LE HUBIESEN EFECTUADO</string>
+    <string name="elemento_sunat_IMPORTE">IMPORTE A PAGAR</string>
 
 
 </resources>

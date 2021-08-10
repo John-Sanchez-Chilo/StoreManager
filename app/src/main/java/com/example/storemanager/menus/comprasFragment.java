@@ -1,5 +1,6 @@
-package com.example.storemanager;
+package com.example.storemanager.menus;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,10 +10,13 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class pedidosFragment extends Fragment {
+import com.example.storemanager.R;
+
+public class comprasFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.pedidosfragment,null);
+        return inflater.inflate(R.layout.comprasfragment,null);
     }
+
 }

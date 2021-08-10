@@ -5,6 +5,11 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.example.storemanager.menus.boletasFragment;
+import com.example.storemanager.menus.comprasFragment;
+import com.example.storemanager.menus.pedidosFragment;
+import com.example.storemanager.menus.sunatFragment;
+
 public class PagerViewAdapter extends FragmentPagerAdapter {
 
 

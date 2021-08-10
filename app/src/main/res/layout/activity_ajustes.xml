@@ -4,61 +4,58 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Ajustes">
+    tools:context=".ajustes.Ajustes">
 
-    <TextView
-        android:id="@+id/ajustes_datospersonales"
-        android:layout_width="118dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginLeft="144dp"
-        android:layout_marginTop="48dp"
-        android:text="@string/ajustes_datos_personales"
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/ajustes_datos_personales" />
+        app:layout_constraintVertical_bias="0.085">
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginLeft="128dp"
-        android:layout_marginTop="44dp"
-        android:text="@string/ajustes_cambiarDatosPersonales2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ajustes_datospersonales" />
+        <TextView
+            android:id="@+id/ajustes_datospersonales"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/purple_200"
+            android:gravity="center"
+            android:text="@string/ajustes_datos_personales"
+            tools:text="@string/ajustes_datos_personales" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginTop="68dp"
-        android:text="@string/ajustes_nuevoProducto"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:onClick="moveToCambiarDatos"
+            android:text="@string/ajustes_cambiarDatosPersonales2" />
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginTop="36dp"
-        android:text="@string/ajustes_sunat"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/purple_200"
+            android:gravity="center"
+            android:text="@string/ajustes_productos" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="96dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginLeft="164dp"
-        android:layout_marginTop="40dp"
-        android:text="@string/ajustes_productos"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:onClick="moveToNuevoProducto"
+            android:text="@string/ajustes_nuevoProducto" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:onClick="moveToEliminarProducto"
+            android:text="@string/ajustes_eliminarProducto" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

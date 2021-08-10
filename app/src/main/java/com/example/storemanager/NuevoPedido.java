@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.storemanager.menus.MainActivity;
+
 public class NuevoPedido extends AppCompatActivity {
 
     @Override
@@ -15,7 +17,7 @@ public class NuevoPedido extends AppCompatActivity {
     }
     //metodo para cancelar el pedido
     public void cancelarPedido(View view){
-        Intent anterior= new Intent(this,MainActivity.class);
+        Intent anterior= new Intent(this, MainActivity.class);
         startActivity(anterior);
     }
 }

@@ -1,4 +1,4 @@
-package com.example.storemanager;
+package com.example.storemanager.menus;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -8,8 +8,17 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.storemanager.ajustes.Ajustes;
+import com.example.storemanager.ajustes.Datos_Tienda;
+import com.example.storemanager.nuevaBoleta.NuevaBoleta;
+import com.example.storemanager.NuevoPedido;
+import com.example.storemanager.PagerViewAdapter;
+import com.example.storemanager.Productos;
+import com.example.storemanager.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,10 +26,21 @@ public class MainActivity extends AppCompatActivity {
     private TextView compras, boletas,pedidos,sunat;
     private PagerViewAdapter pagerViewAdapter;
 
+    //Esto es para el listview de Sunat
+    ListView lista_sunat;
+    String [][] datos = {
+        {"id","fecha"},{"1","may-2021"},{"2","june-2021"},{"3","july-2021"}
+    };
+
+    private String nombres[]={"Samuel", "Javier", "pablo", "Mateo"};
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //esto es para el menu
         compras=findViewById(R.id.compras);
         boletas=findViewById(R.id.boletas);
         pedidos=findViewById(R.id.pedidos);
@@ -102,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //esto es delmenu de tres puntitos de la parte derecha
+    //esto es del menu de tres puntitos de la parte derecha
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.overflow,menu);
         return super.onCreateOptionsMenu(menu);
@@ -112,24 +132,24 @@ public class MainActivity extends AppCompatActivity {
     //metodo para el boton nueva boleta
 
     public void nuevaBoleta(View view){
-        Intent formBoleta= new Intent(this,NuevaBoleta.class);
+        Intent formBoleta= new Intent(this, NuevaBoleta.class);
         startActivity(formBoleta);
     }
     //metodo para el boton nuevo pedido
     public void nuevoPedido(View view){
-        Intent formPedido= new Intent(this,NuevoPedido.class);
+        Intent formPedido= new Intent(this, NuevoPedido.class);
         startActivity(formPedido);
     }
     //metodo para el boton de productos
     public void moveToProductos(View view){
-        Intent formPedido= new Intent(this,Productos.class);
+        Intent formPedido= new Intent(this, Productos.class);
         startActivity(formPedido);
     }
 
 
     //metodo para el boton de ajustes del main
     public void moveToAjustes(View view){
-        Intent formPedido= new Intent(this,Ajustes.class);
+        Intent formPedido= new Intent(this, Ajustes.class);
         startActivity(formPedido);
     }
 
@@ -137,7 +157,8 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem  item){
         int id=item.getItemId();
         if(id==R.id.item1){
-            Toast.makeText(this,"Opcion 1",Toast.LENGTH_SHORT).show();
+            Intent formPedido= new Intent(this, Datos_Tienda.class);
+            startActivity(formPedido);
         }
         else if(id==R.id.item2){
             //Toast.makeText(this,"Ajustes",Toast.LENGTH_SHORT).show();
@@ -147,5 +168,4 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-    /*modificandomodificandomodificandomodificandomodificando*/
 }

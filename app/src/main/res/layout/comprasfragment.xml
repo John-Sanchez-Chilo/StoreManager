@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF6448">
+    android:background="@color/purple_50">
 
     <Button
         android:id="@+id/button1"
@@ -16,11 +16,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="108dp"
-        android:layout_marginLeft="108dp"
         android:layout_marginTop="44dp"
         android:onClick="nuevaBoleta"
         android:text="@string/boleta"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="@string/boleta" />
@@ -34,11 +33,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="108dp"
-        android:layout_marginLeft="108dp"
         android:layout_marginTop="32dp"
         android:onClick="nuevoPedido"
         android:text="@string/pedido"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button1"
         tools:text="@string/pedido" />
@@ -52,11 +50,10 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="108dp"
-        android:layout_marginLeft="108dp"
         android:layout_marginTop="40dp"
         android:onClick="moveToProductos"
         android:text="@string/productos"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         tools:text="@string/productos" />
